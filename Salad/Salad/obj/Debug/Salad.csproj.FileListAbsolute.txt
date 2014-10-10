@@ -1,1 +1,6 @@
 C:\Users\Влад\Documents\Task-1\Salad\Salad\bin\Debug\Salad.exe.config
+C:\Users\Влад\Documents\Task-1\Salad\Salad\obj\Debug\Salad.csprojResolveAssemblyReference.cache
+C:\Users\Влад\Documents\Task-1\Salad\Salad\bin\Debug\Salad.exe
+C:\Users\Влад\Documents\Task-1\Salad\Salad\bin\Debug\Salad.pdb
+C:\Users\Влад\Documents\Task-1\Salad\Salad\obj\Debug\Salad.exe
+C:\Users\Влад\Documents\Task-1\Salad\Salad\obj\Debug\Salad.pdb

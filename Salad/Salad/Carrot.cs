@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Salad
 {
-    
-    class Program
+    class Carrot: RootVegetable 
     {
-        private static void Main(string[] args)
+        public Carrot(string name, double calories, double weight) : base(name, calories, weight)
         {
-           VegetableCollection v = new VegetableCollection();
-            v.CreatingSalad();
         }
     }
 }
