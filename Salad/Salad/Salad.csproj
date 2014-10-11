@@ -56,7 +56,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RootVegetable.cs" />
-    <Compile Include="SortVegetableByCalories.cs" />
     <Compile Include="VegetableCollection.cs" />
     <Compile Include="Tomato.cs" />
     <Compile Include="TuberVegetables.cs" />
