@@ -19,6 +19,8 @@ namespace Salad
                 new Carrot("Carrot", 154452, 46),
                 new Cucumber("Cucumber", 1896, 456)
             };
+
+
             Console.WriteLine("The salad contains following ingredients:");
             foreach (Vegetable b in vegetable)
                 Console.WriteLine(b.Name);
@@ -27,14 +29,14 @@ namespace Salad
            
             foreach (Vegetable a in vegetable)
 
-                Console.WriteLine("This {1} ingredients contains {0}  Kcal ", a.GetCaloriesForOneVegetable(vegetable), a.Name);
+                Console.WriteLine("This {1}  contains {0}  Kcal", a.GetCaloriesForOneVegetable(vegetable), a.Name);
            
         }
 
+         
 
-       
 
-        
+
     }
     }
 
