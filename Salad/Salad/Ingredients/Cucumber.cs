@@ -8,7 +8,7 @@ namespace Salad
 {
     class Cucumber : CucurbitaceaeVegetable 
     {
-        public Cucumber(string name, double calories, double weight) : base(name, calories, weight)
+        public Cucumber(double weight) : base("Cucumber", 15, weight)
         {
         }
     }

@@ -8,7 +8,7 @@ namespace Salad
 {
     class Tomato : NightshadeVegetable 
     {
-        public Tomato(string name, double calories, double weight) : base(name, calories, weight)
+        public Tomato(double weight) : base("Tomato", 19.9, weight)
         {
         }
     }

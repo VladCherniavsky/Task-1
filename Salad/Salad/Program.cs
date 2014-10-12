@@ -11,8 +11,10 @@ namespace Salad
     {
         private static void Main(string[] args)
         {
-           VegetableCollection v = new VegetableCollection();
-            v.CreatingSalad();
+          Salad s = new Salad();
+            s.CreatingSalad();
+           
+
         }
     }
 }

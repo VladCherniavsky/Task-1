@@ -53,11 +53,10 @@
     <Compile Include="Ingredients\Peas.cs" />
     <Compile Include="Ingredients\Pepper.cs" />
     <Compile Include="Ingredients\Potatoes.cs" />
-    <Compile Include="Ingredients\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ingredients\RootVegetable.cs" />
-    <Compile Include="Salads.cs" />
-    <Compile Include="VegetableCollection.cs" />
+    <Compile Include="Salad.cs" />
     <Compile Include="Ingredients\Tomato.cs" />
     <Compile Include="Ingredients\TuberVegetables.cs" />
     <Compile Include="Vegetable.cs" />

@@ -8,7 +8,7 @@ namespace Salad
 {
     class Potatoes : TuberVegetables 
     {
-        public Potatoes(string name, double calories, double weight) : base(name, calories, weight)
+        public Potatoes( double weight) : base("Potato", 16, weight)
         {
         }
     }

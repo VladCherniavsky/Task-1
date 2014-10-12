@@ -8,7 +8,7 @@ namespace Salad
 {
     class Peas : LegumeVegetable 
     {
-        public Peas(string name, double calories, double weight) : base(name, calories, weight)
+        public Peas( double weight) : base("Peas", 9.0, weight)
         {
         }
     }

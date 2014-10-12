@@ -8,7 +8,7 @@ namespace Salad
 {
     class Garlic : BulbousVegetable 
     {
-        public Garlic(string name, double calories, double weight) : base(name, calories, weight)
+        public Garlic(double weight) : base("Garlic", 29.9, weight)
         {
         }
     }

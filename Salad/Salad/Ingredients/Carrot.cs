@@ -8,7 +8,7 @@ namespace Salad
 {
     class Carrot: RootVegetable 
     {
-        public Carrot(string name, double calories, double weight) : base(name, calories, weight)
+        public Carrot( double weight) : base("Carrot", 32, weight)
         {
         }
     }

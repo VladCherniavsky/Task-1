@@ -8,7 +8,7 @@ namespace Salad
 {
     class Onion : BulbousVegetable 
     {
-        public Onion(string name, double calories, double weight) : base(name, calories, weight)
+        public Onion(double weight) : base("Onion", 10.4, weight)
         {
         }
     }
