@@ -27,7 +27,7 @@ namespace Salad
              Console.WriteLine("The salad contains following ingredients:");
              foreach (Vegetable b in vegetable)
                  Console.WriteLine(b.Name);
-             Console.WriteLine("\n");
+             Console.WriteLine("\nHere are sorted ingredients by calories");
 
              vegetable.Sort();
              foreach (Vegetable a in vegetable)

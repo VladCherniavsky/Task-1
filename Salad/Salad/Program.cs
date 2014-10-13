@@ -11,10 +11,8 @@ namespace Salad
     {
         private static void Main(string[] args)
         {
-          Salad s = new Salad();
-            s.CreatingSalad();
+          Chef chef = new Chef("Joe", "Caesar");
            
-
         }
     }
 }
