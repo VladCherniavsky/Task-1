@@ -35,12 +35,14 @@ namespace Salad
              Console.WriteLine("\n");
 
              Console.WriteLine("Total calories for this salad is {0} Kcal", TotalCalories(vegetable));
-            
-             foreach (Vegetable t in BetweenCalories(vegetable, 1895, 10000000))
-                 Console.WriteLine("I find {0}", t.Name);
+
+             Console.WriteLine("\nIngredients which  satisfies your requiments are:");
+             foreach (Vegetable t in BetweenCalories(vegetable, 15, 60))
+                 Console.WriteLine("{0}", t.Name);
          }
 
-         public  List<Vegetable> BetweenCalories(List<Vegetable> vegetable, int min, int max)
+         
+         public static  List<Vegetable> BetweenCalories(List<Vegetable> vegetable, int min, int max)
          {
              return vegetable.Where(x => x.KcalPer100g > min && x.KcalPer100g < max).ToList();
          }

@@ -15,7 +15,7 @@ namespace Salad
         {
             Name = name;
             NameOfSalad = nameOfSalad;
-            Console.WriteLine("Hi, my name is {0} and I cooked {1} for you", name, nameOfSalad);
+            Console.WriteLine("Hi, my name is {0} and I've cooked {1} for you", name, nameOfSalad);
             Salad s = new Salad();
             s.CreatingSalad();
 
