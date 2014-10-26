@@ -1,0 +1,6 @@
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\bin\Debug\ConcordanceApplication.exe.config
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\bin\Debug\ConcordanceApplication.exe
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\bin\Debug\ConcordanceApplication.pdb
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\obj\Debug\ConcordanceApplication.csprojResolveAssemblyReference.cache
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\obj\Debug\ConcordanceApplication.exe
+C:\Users\Влад\Documents\Task-1\ConcordanceApplication\ConcordanceApplication\obj\Debug\ConcordanceApplication.pdb
