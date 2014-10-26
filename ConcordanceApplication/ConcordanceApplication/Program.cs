@@ -32,12 +32,14 @@ namespace ConcordanceApplication
                 }
                 
             }
+            var list =concordanceDictionary.Keys.ToList();
+            list.Sort();
 
-
-            foreach (KeyValuePair<string, int> pair in concordanceDictionary)
+            foreach (var key in list)
             {
-                Console.WriteLine("{0}:{1}", pair.Key, pair.Value);
+                Console.WriteLine("{0}.........: {1}", key, concordanceDictionary[key]);
             }
+            
 
         }
 
