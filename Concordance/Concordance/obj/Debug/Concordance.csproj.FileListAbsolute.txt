@@ -1,0 +1,9 @@
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\bin\Debug\Concordance.exe.config
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\bin\Debug\Concordance.exe
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\bin\Debug\Concordance.pdb
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\obj\Debug\Concordance.csprojResolveAssemblyReference.cache
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\obj\Debug\Concordance.exe
+c:\users\влад\documents\visual studio 2012\Projects\Concordance\Concordance\obj\Debug\Concordance.pdb
+C:\Users\Влад\Documents\Task-1\Concordance\Concordance\bin\Debug\Concordance.exe.config
+C:\Users\Влад\Documents\Task-1\Concordance\Concordance\obj\Debug\Concordance.exe
+C:\Users\Влад\Documents\Task-1\Concordance\Concordance\obj\Debug\Concordance.pdb

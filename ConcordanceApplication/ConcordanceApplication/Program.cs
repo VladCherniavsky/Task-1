@@ -12,61 +12,85 @@ namespace ConcordanceApplication
     {
         public static void Main(string[] args)
         {
-            Dictionary<string, int> concordanceDictionary = new Dictionary<string, int>();
+            string[] lines = File.ReadAllLines(@"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt");
+            StringBuilder sb = new StringBuilder();
+            string[] eachLineAsItemOfArray = new string[lines.Length/10];
 
-            string lines = File.ReadAllText(path: @"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt").ToLower();
-          
-            string[] words = SplitWords(lines);
-            
-            foreach (var  word in words)
+            foreach (string line in lines)
             {
-                int i = 1;
-                if (!concordanceDictionary.ContainsKey(word))
-                {
-                    concordanceDictionary.Add(word, i);
-                    
-                }
-                else
-                {
-                    concordanceDictionary[word]++;
-                }
-                
-            }
-            var list =concordanceDictionary.Keys.ToList();
-            list.Sort();
-
-            foreach (var key in list)
-            {
-                Console.WriteLine("{0}.........: {1}", key, concordanceDictionary[key]);
-            }
-            
-
-        }
-
-        static string[] SplitWords(string s)
-            {
-                return Regex.Split(s, @"\W+");
-            }
-
-       
-
-/*
                 int i = 0;
-
-            foreach (string line in File.ReadAllLines(path: @"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt"))
-            {
-                string[] parts = line.Split(' ');
-                foreach (string part in parts)
+                string linesForOnePage = null;
+                while (i  != 9)
                 {
-                    Console.WriteLine("{0}:{1}", i, part);
+                    linesForOnePage += line;
                 }
-                i++;
-            }*/
-
-
+            }
 
         }
-
-        
     }
+}
+
+
+
+//        Dictionary<string, int> concordanceDictionary = new Dictionary<string, int>();
+            //        string[] lines = File.ReadAllLines(@"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt");
+
+            //        string myText =
+            //            File.ReadAllText(path: @"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt").ToLower();
+
+            //        string[] words = SplitWords(myText);
+
+            //        foreach (var  word in words)
+            //        {
+            //            int i = 1;
+            //            if (!concordanceDictionary.ContainsKey(word))
+            //            {
+            //                concordanceDictionary.Add(word, i);
+
+            //            }
+            //            else
+            //            {
+            //                concordanceDictionary[word]++;
+            //            }
+
+            //        }
+            //        var list = concordanceDictionary.Keys.ToList();
+            //        list.Sort();
+
+
+
+            //        foreach (var key in list)
+            //        {
+            //            List<int> nummerOfLine = new List<int>();
+            //            foreach (var line in lines)
+            //            {
+            //                if (line.Contains(key))
+            //                {
+
+            //                    nummerOfLine.Add(line.IndexOf(line));
+            //                }
+
+
+            //                Console.WriteLine("{0}.........: {1}....{2}", key, concordanceDictionary[key], nummerOfLine);
+            //            }
+
+
+            //        }
+            //    }
+
+
+
+            //    static string[] SplitWords(string s)
+            //        {
+            //            return Regex.Split(s, @"\W+");
+            //        }
+
+
+
+
+            //}
+
+
+       //}
+
 
