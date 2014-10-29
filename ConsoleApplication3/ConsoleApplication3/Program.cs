@@ -26,7 +26,10 @@ namespace ConsoleApplication3
                     else
                     {
                         concordanceDictionary[word].WordCount++;
-                        concordanceDictionary[word].LineNumbers.Add(i);
+                        if (!concordanceDictionary[word].LineNumbers.Contains(i))
+                        {
+                            concordanceDictionary[word].LineNumbers.Add(i);
+                        }
                     }
                 }
 
