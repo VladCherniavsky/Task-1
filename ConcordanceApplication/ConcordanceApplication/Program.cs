@@ -16,14 +16,17 @@ namespace ConcordanceApplication
             StringBuilder sb = new StringBuilder();
             string[] eachLineAsItemOfArray = new string[lines.Length/10];
 
-            foreach (string line in lines)
+            while (int i = 0; i <= 9; i++)
             {
-                int i = 0;
                 string linesForOnePage = null;
-                while (i  != 9)
+                foreach (string line in lines)
                 {
+                    
+                    
                     linesForOnePage += line;
+                    
                 }
+                eachLineAsItemOfArray[0] = linesForOnePage;
             }
 
         }
