@@ -17,7 +17,7 @@ namespace ConsoleApplication3
             int i = 1;
             foreach (var line in File.ReadLines(@"C:\Users\Влад\Documents\Task-1\ConcordanceApplication\Text.txt"))
             {
-                foreach (string word in SplitWords(line).ToLower)
+                foreach (string word in SplitWords(line.ToLower()))
                 {
                     if (!concordanceDictionary.ContainsKey(word))
                     {
@@ -31,6 +31,18 @@ namespace ConsoleApplication3
                 }
 
                 i++;
+            }
+            List<WordInfo> sortedWordInfos = concordanceDictionary.Values.OrderByDescending(a => a.Word).ToList();
+
+            foreach (var pair in sortedWordInfos)
+            {
+                Console.Write(pair.Word + " " + pair.WordCount + " ");
+                Console.WriteLine("\n");
+                foreach (int lineNumber in pair.LineNumbers)
+                {
+                    Console.Write("{0},",lineNumber/10+1);
+                    
+                }
             }
         }
 
