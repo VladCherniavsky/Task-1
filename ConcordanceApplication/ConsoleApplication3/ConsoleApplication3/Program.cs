@@ -26,9 +26,10 @@ namespace ConsoleApplication3
                     else
                     {
                         concordanceDictionary[word].WordCount++;
-                        if (!concordanceDictionary[word].LineNumbers.Contains(i))
+                        if (!concordanceDictionary[word].LineNumbers.Contains(i/10+1))
                         {
-                            concordanceDictionary[word].LineNumbers.Add(i);
+                           
+                            concordanceDictionary[word].LineNumbers.Add(i/10+1);
                         }
                     }
                 }
@@ -36,14 +37,16 @@ namespace ConsoleApplication3
                 i++;
             }
             List<WordInfo> sortedWordInfos = concordanceDictionary.Values.OrderByDescending(a => a.Word).ToList();
+            sortedWordInfos.Reverse();
 
             foreach (var pair in sortedWordInfos)
             {
-                Console.Write(pair.Word + " " + pair.WordCount + " ");
                 Console.WriteLine("\n");
+                Console.Write(pair.Word + " " + pair.WordCount + ":.......");
+                
                 foreach (int lineNumber in pair.LineNumbers)
                 {
-                    Console.Write("{0},",lineNumber/10+1);
+                    Console.Write("{0},",lineNumber);
                     
                 }
             }
