@@ -21,7 +21,7 @@ namespace ConsoleApplication3
                 {
                     if (!concordanceDictionary.ContainsKey(word))
                     {
-                        concordanceDictionary.Add(word, new WordInfo(word, i));
+                        concordanceDictionary.Add(word, new WordInfo(word, i/10+1));
                     }
                     else
                     {
